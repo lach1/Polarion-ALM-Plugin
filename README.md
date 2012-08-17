@@ -7,9 +7,8 @@ For further information see [announcement of Software Competence Center Hagenber
  
 Compatibility:
 
-[Polarion ALM 3.2+](http://www.polarion.com/)
-
-[Hudson 1.360+](http://hudson-ci.org/)/[Jenkins](http://jenkins-ci.org/)
+* [Polarion ALM 3.2+](http://www.polarion.com/)
+* [Hudson 1.360+](http://hudson-ci.org/)/[Jenkins](http://jenkins-ci.org/)
 
 
 
