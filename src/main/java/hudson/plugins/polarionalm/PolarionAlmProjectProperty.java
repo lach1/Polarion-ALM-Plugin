@@ -76,7 +76,7 @@ public class PolarionAlmProjectProperty extends JobProperty<AbstractProject<?,?>
 		}
 
 		public String getRegex() {
-			if(regex == null) return "HUDSON-[0-9]*";
+			if(regex == null) return "TASK-[0-9]*";
 			return regex;
 		}
 

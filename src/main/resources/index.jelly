@@ -1,0 +1,6 @@
+<!--
+  This view is used to render the plugin list page.
+-->
+<div>
+This plugin integrates <a href="http://www.polarion.com/products/alm/">Polarion ALM</a> into Jenkins so that commits are linked with work items and defects are created when a build failed.
+</div>

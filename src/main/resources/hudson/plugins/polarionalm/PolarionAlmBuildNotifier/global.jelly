@@ -1,0 +1,16 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Polarion ALM Build Notifier">
+	<f:entry title="Polarion ALM base URL">
+	    <f:textbox name="polarionalmbuild.base" value="${descriptor.baseUrl}"/>
+	</f:entry>
+	<f:entry title="Polarion username">
+	    <f:textbox name="polarionalmbuild.username" value="${descriptor.username}"/>
+	</f:entry>
+	<f:entry title="Polarion password">
+	    <f:password name="polarionalmbuild.password" value="${descriptor.password}"/>
+	</f:entry>
+	<f:entry title="Build log number of lines">
+	    <f:textbox name="polarionalmbuild.buildlog" value="${descriptor.buildlog}" default="15"/>
+	</f:entry>
+  </f:section>
+</j:jelly>

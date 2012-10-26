@@ -1,0 +1,23 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:entry title="Polarion Project" field="project">
+	    <f:textbox />
+	</f:entry>
+	<f:entry title="Workitem Type" field="workitemType">
+	    <f:textbox />
+	</f:entry>
+	<f:entry title="Workitem Category" field="workitemCategory">
+	    <f:textbox />
+	</f:entry>
+	<f:entry title="Workitem Title" field="workitemTitle">
+	    <f:textbox />
+	</f:entry>
+	<f:entry title="Linked Workitem ID" field="linkedWorkitemId">
+	    <f:textbox />
+	</f:entry>
+	<f:entry title="Linked Workitem Project" field="linkedWorkitemProject">
+	    <f:textbox />
+	</f:entry>
+	<f:entry title="Linked Workitem Role" field="linkedWorkitemRole">
+	    <f:textbox />
+	</f:entry>
+</j:jelly>
